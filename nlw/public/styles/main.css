@@ -1,0 +1,34 @@
+:root{
+    --title-color: #322153;
+    --primary-color: #34cb79;
+    --secondary-color: #f0f0f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Box Model
+Modelod e caixa, todo caixa tem
+Largura, altura, espaçamento, preenchimento
+Borda, cor, fundo, maneira que é vista pelo html (display), posicionamento, alinhamento.
+*/
+a{
+    text-decoration: none;
+}
+
+body{
+    background: rgb(224, 224, 224);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
